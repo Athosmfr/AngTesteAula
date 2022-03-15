@@ -1,0 +1,43 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #111111;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+}
+
+
+.botao-caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botao-cardapio {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #111111;
+    border-style: none;
+}
+
+.texto-botao-cardapio {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
